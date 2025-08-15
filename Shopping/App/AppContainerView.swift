@@ -13,6 +13,8 @@ struct AppContainerView: View {
     
     var body: some View {
         let container = AppContainer(modelContext: modelContext)
-        CartView(container: container)
+        NavigationStack {
+            CartView(container: container)
+        }
     }
 }

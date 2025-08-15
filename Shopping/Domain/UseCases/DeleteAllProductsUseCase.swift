@@ -1,18 +1,18 @@
 //
-//  AddProductUseCase.swift
+//  DeleteProductUseCase.swift
 //  Shopping
 //
 //  Created by Andres Lopez on 30/07/25.
 //
 
-class AddProductUseCase {
+class DeleteAllProductsUseCase {
     private let repository: ProductRepositoryProtocol
-    
+
     init(repository: ProductRepositoryProtocol) {
         self.repository = repository
     }
-    
-    func execute(name: String, price: Double, amount: Int){
-        repository.addProduct(name: name, price: price, amount: amount)
+
+    func execute() {
+        repository.deleteAll()
     }
 }

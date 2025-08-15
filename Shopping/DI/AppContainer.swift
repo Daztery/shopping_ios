@@ -15,6 +15,8 @@ class AppContainer: ObservableObject {
     let addProductUseCase: AddProductUseCase
     let getAllProductsUseCase: GetAllProductsUseCase
     let deleteProductUseCase: DeleteProductUseCase
+    let updateProductUseCase: UpdateProductUseCase
+    let deleteAllProductsUseCase: DeleteAllProductsUseCase
 
     init(modelContext: ModelContext) {
         let repository = ProductRepository(context: modelContext)
@@ -22,5 +24,7 @@ class AppContainer: ObservableObject {
         self.addProductUseCase = AddProductUseCase(repository: repository)
         self.getAllProductsUseCase = GetAllProductsUseCase(repository: repository)
         self.deleteProductUseCase = DeleteProductUseCase(repository: repository)
+        self.updateProductUseCase = UpdateProductUseCase(repository: repository)
+        self.deleteAllProductsUseCase = DeleteAllProductsUseCase(repository: repository)
     }
 }

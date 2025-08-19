@@ -12,7 +12,7 @@ Monthly shopping app developed in **Swift** with **SwiftUI**, following **MVVM +
 - **Quantity & unit price** → auto-calculated **subtotal**.
 - **Real-time total** display.
 - **Optional spending limit**: shows remaining balance and alerts when exceeded.
-- **Local persistence**: Core Data or equivalent.
+- **Local persistence**: Swift Data.
 - **Declarative UI** with SwiftUI.
 - **Clean Architecture**: Presentation, Domain, and Data layers separated.
 

@@ -1,6 +1,6 @@
 # Shopping iOS
 
-Monthly shopping app developed in **Swift** with **SwiftUI**, following **MVVM + Clean Architecture** and **Dependency Injection**. It enables adding, editing, deleting products, managing quantities, viewing **subtotal per item** and overall total, and optionally setting a **spending limit** with remaining/over-limit alerts. Local persistence with **Core Data** (or SQLite/Realm alternative) is supported.
+Monthly shopping app developed in **Swift** with **SwiftUI**, following **MVVM + Clean Architecture** and **Dependency Injection**. It enables adding, editing, deleting products, managing quantities, viewing **subtotal per item** and overall total, and optionally setting a **spending limit** with remaining/over-limit alerts. Local persistence with **Swift Data** (or SQLite/Realm alternative) is supported.
 
 > **Main stack:** Swift · SwiftUI · MVVM · Clean Architecture · SwiftData · Combine/Swift Concurrency · Xcode · Swift Package Manager
 

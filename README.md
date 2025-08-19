@@ -64,10 +64,10 @@ App/
 ## 🔧 Technical Setup
 
 ### Persistence
-Uses **Core Data** (or alternative): Entities, persistence container, Context injection.
+Used **SwiftData** : Entities, persistence container, Context injection.
 
 ### State Management
-Uses **Combine** or **Swift Concurrency** for reactive data flow.
+Usd **Combine** for reactive data flow.
 
 ### Dependency Injection
 Configured via Resolver/Swinject or manual protocol-based DI.
